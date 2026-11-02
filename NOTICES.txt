@@ -1,0 +1,26 @@
+3SNetplay alpha distribution
+
+The desktop UI, Rust launcher and account/backend application source are private.
+Their absence is intentional. Third-party notices and required native emulator
+component source are supplied separately in this package. No rights in third-party
+code or trademarks are changed by the application's distribution.
+
+This alpha is provided for noncommercial evaluation. Do not sell it, bundle it in
+a commercial product, or solicit donations to support this FBNeo-based project.
+No ROMs or Capcom game assets are distributed. Users supply their own game files.
+
+FBNeo and inherited components: third_party/notices/FBNeo-license.txt and
+MAME-license.txt. SH-2 core: Juergen Buchmueller and port contributors; full notice
+in third_party/notices/FBNeo-SH2-notice.txt. The package includes the selected pinned
+FBNeo sources, native integration sources, GGPO sources with disclosed local changes,
+SDL library/build sources, MPL-covered Rust library sources, and compiler-runtime
+notices. GGPO is MIT; SDL is zlib; other components retain their individual terms.
+
+Sources/notices: native/, scripts/ (native build only), source-fbneo/, source-ggpo/,
+source-sdl/, third_party/. The exact upstream revisions are in upstream.lock.json
+and native/*source-files.json. SDL is 2.32.10. Native source changes and local GGPO
+compatibility patches are visible in the provided source/build scripts.
+
+No affiliation with or endorsement by Capcom, Fightcade, FBNeo, or GGPO is implied.
+This alpha comes without a promise of fitness, availability, or error-free gameplay.
+Third-party permissions, warranties and disclaimers are stated in their own licenses.
