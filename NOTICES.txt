@@ -1,4 +1,4 @@
-3SNetplay alpha distribution
+3SHub alpha distribution (formerly 3SNetplay)
 
 The desktop UI, Rust launcher and account/backend application source are private.
 Their absence is intentional. Third-party notices and required native emulator
